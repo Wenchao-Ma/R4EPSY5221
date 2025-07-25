@@ -1,0 +1,20 @@
+Package: R4EPSY5221
+Type: Package
+Title: R Functions for EPSY 5221
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Wenchao", "Ma",
+      email = "wma@umn.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: This package provides functions for item analysis, norm table creation, and other psychometric computations used in EPSY 5221.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    stats
+Roxygen: list(markdown = TRUE)
+RoxygenNote:7.3.2
